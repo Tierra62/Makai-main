@@ -1,0 +1,75 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup node.js env
+        uses: actions/setup-node@v2.5.0
+        with:
+          node-version: "16.17.0"
+
+      - name: React - Install dependencies
+        working-directory: react
+        run: yarn install --network-timeout 1000000000
+
+      - name: React - Yarn Build
+        working-directory: react
+        run: yarn build
+
+      - name: React - Move Published Build
+        run: |
+          mkdir -p dotnet/Sabio.Web.Api/ClientApp/
+          mv ./react/build dotnet/Sabio.Web.Api/ClientApp/
+      - name: DotNet - Setup .NET Core
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "7.0.202"
+          include-prerelease: true
+
+      - name: DotNet - Install Dependencies and Restore
+        working-directory: dotnet
+        run: dotnet restore Sabio.Starter.Core.sln
+
+      - name: DotNet - Build
+        working-directory: dotnet
+        run: dotnet build Sabio.Starter.Core.sln --configuration Release
+
+      - name: DotNet - Publish
+        run: dotnet publish dotnet/Sabio.Web.Api -c Release -o ${{env.DOTNET_ROOT}}/makai
+
+      - name: Upload Artifact for deployment job
+        uses: actions/upload-artifact@v2
+        with:
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/makai
+          
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: "Production"
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: .net-app
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: "makai"
+          slot-name: "Production"
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_19CA8DF0F1FB4A6E9101D69224F36581 }}
+          package: .

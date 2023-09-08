@@ -1,0 +1,139 @@
+.share-story-preview {
+  max-width: 200px;
+  max-height: 50%;
+  border: 1px solid black;
+}
+
+.story-img-thumbnail {
+  width: 100%;
+  height: 100%;
+  max-height: 240px;
+  object-fit: cover;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.story-img-thumbnail:hover {
+  opacity: 80%;
+}
+
+.story-img-preview {
+  left: "10%";
+  width: "18rem";
+  height: 300px;
+  color: white;
+  border-color: "#f5803e";
+}
+
+.story-text-center h1 {
+  color: white;
+}
+
+.story-text-center {
+  color: white;
+}
+
+.story-card {
+  left: "10%";
+  width: "18rem";
+  height: 300px;
+  color: white;
+  border-color: "#f5803e";
+}
+
+.story-card:hover {
+  background-color: #2bb5bc8c;
+}
+
+.story-info {
+  cursor: pointer;
+  color: orange;
+}
+
+.story-info:hover {
+  color: orange;
+}
+
+.story-name {
+  color: orange;
+  text-decoration: none;
+}
+
+.story-name:hover {
+  cursor: pointer;
+  color: orange;
+  text-decoration: underline;
+}
+
+.share-story-btn {
+  background-color: orange;
+  color: white;
+  font-size: large;
+}
+
+.share-story-btn:hover {
+  background-color: white;
+  color: orange;
+}
+
+.share-story-btn:active {
+  background-color: white !important;
+  color: orange !important;
+  font-size: larger;
+  transition: font-size 0.1s ease-in-out;
+}
+
+.story-makai-title {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: orange;
+  font-family: "Amatic SC", sans-serif;
+}
+
+.story-makai-title2 {
+  font-size: 100%;
+  font-weight: bolder;
+  color: orange;
+  font-family: "Amatic SC", sans-serif;
+}
+
+.story-h1 {
+  font-size: 300%;
+}
+
+.story-background {
+  background-size: 100% 100%;
+}
+
+.story-main-background {
+  background-image: url("../../assets/img/illustrations/Ocean.jpg");
+  background-repeat: no-repeat;
+  margin-top: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-size: 100% 100%;
+}
+
+.story-detail-background {
+  padding-bottom: 2%;
+  background-image: url("../../assets/img/illustrations/ripples.jpg");
+  background-repeat: no-repeat;
+}
+
+.story-avatar-thumbnail {
+  width: 100%;
+  max-width: 50px;
+  height: 100%;
+  max-height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.story-date {
+  text-align: end;
+  color: orange;
+}
+
+.story-date-detail {
+  text-align: end;
+}

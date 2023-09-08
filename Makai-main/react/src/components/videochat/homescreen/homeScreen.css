@@ -1,0 +1,71 @@
+.home-screen {
+  padding: 0 1rem;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  border: #fff;
+  border-radius: 3px;
+}
+
+.home-screen h1 {
+  color: #020202;
+  font-weight: bold;
+}
+
+.home-screen p {
+  color: var(--grey);
+}
+
+.homeScreen-Button {
+  align-items: center;
+  appearance: none;
+  background: #009940 0;
+  border: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  height: 50px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 20px;
+}
+
+.homeScreen-Button:hover {
+  background: #f0ff20 0;
+  color: #0d2842;
+}
+
+.homeScreen-h4 {
+  color: #020202;
+}
+
+.homeScreen-h2 {
+  color: #000;
+}
+
+.video-head {
+  margin-bottom: 80px;
+}
+
+.video-actions {
+  margin-top: 1px;
+}

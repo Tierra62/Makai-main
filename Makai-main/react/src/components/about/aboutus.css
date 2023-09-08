@@ -1,0 +1,30 @@
+.aboutus-overlay-dark {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.aboutus-title {
+  font-size: 60px;
+}
+
+.aboutus-img-team {
+  width: 230px;
+  height: 240px;
+  margin-bottom: 13px;
+}
+
+.aboutus-icon-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 40%;
+  margin-bottom: 12px;
+}
+
+.aboutus-body-text {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.aboutus-welcome-text {
+  font-size: 25px;
+  margin-bottom: 15px;
+}

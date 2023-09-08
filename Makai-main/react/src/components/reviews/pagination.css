@@ -1,0 +1,15 @@
+.rc-pagination-item,
+.rc-pagination-prev,
+.rc-pagination-next,
+.rc-pagination-disabled,
+.rc-pagination,
+.rc-pagination-item-link {
+  color: white;
+  background-color: #0b1727;
+  border: none;
+  font-family: "Segoe UI";
+}
+
+.rc-pagination-item-active {
+  color: #0d6efd;
+}

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+     <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Security\SecurityStringExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.103.17" />
+    <PackageReference Include="BCrypt-Core" Version="2.0.0" />
+    <PackageReference Include="Google.Apis.AnalyticsData.v1beta" Version="1.60.0.2966" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Stripe.net" Version="41.7.0" />
+    <PackageReference Include="sib_api_v3_sdk" Version="3.3.0" />
+    <PackageReference Include="Twilio" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sabio.Data\Sabio.Data.csproj" />
+    <ProjectReference Include="..\Sabio.Models\Sabio.Models.csproj" />
+    <ProjectReference Include="..\Sabio.Web.Models\Sabio.Web.Models.csproj" />
+  </ItemGroup>
+
+</Project>

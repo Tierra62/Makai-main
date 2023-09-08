@@ -1,0 +1,49 @@
+.video-app {
+  background-color: var(--darkest-blue);
+  min-height: 50vh;
+  display: grid;
+  grid-template-rows: 4rem 1fr 4rem;
+}
+
+.video-app video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.api-error {
+  background: var(--dark-blue-border);
+  width: 480px;
+  height: 270px;
+  display: inline-flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  padding: 3rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.api-error p {
+  color: var(--white);
+}
+
+.api-error h1 {
+  color: var(--red-dark);
+}
+
+.api-error a,
+.api-error a:visited {
+  color: var(--white);
+}
+#homescreen {
+  height: 65%;
+  overflow-y: auto;
+  background: #0f4679;
+}
+
+.room-list {
+  color: black;
+}

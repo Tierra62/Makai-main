@@ -1,0 +1,50 @@
+.card-image-for-individual-cards {
+  min-width: 30rem;
+  min-height: 30rem;
+  max-height: 30rem;
+  object-fit: contain;
+  background-color: white;
+}
+
+.card-body {
+  font-size: 1.1rem;
+}
+
+.product-back-button {
+  font-size: 1.5rem;
+  color: #edf2f9;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background-color: #10223b;
+  border-color: #10223b;
+  width: 13rem;
+}
+
+.product-item {
+  border: transparent;
+  border-color: transparent;
+}
+
+.card-for-individual-cards {
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 30rem;
+}
+
+.makai-background-1 {
+  background-color: #10223b;
+}
+
+.makai-background-2 {
+  background-color: #0b1727;
+}
+
+.ratings-push {
+  margin: -1.5rem 0rem -2rem 0rem;
+}
+
+.favorites-unheart {
+  color: red;
+}

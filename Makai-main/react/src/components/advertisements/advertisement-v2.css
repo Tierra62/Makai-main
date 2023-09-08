@@ -1,0 +1,32 @@
+.advertisement-card {
+  left: "10%";
+  width: "18rem";
+  height: 650px;
+  color: white;
+  border-color: "#f5803e";
+}
+
+.advertisementImage {
+  height: 300px;
+  color: "black";
+}
+
+.advertisement-card-body {
+  background-color: #004e5a;
+}
+
+.advertisement-card-title {
+  color: white;
+}
+
+.advertisement-card-body2 {
+  background-color: #004e5a;
+}
+
+.advertisement-text-center h1 {
+  color: white;
+}
+
+.advertisement-rounded {
+  background-color: #004e5a;
+}

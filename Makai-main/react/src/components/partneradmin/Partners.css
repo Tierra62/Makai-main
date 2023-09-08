@@ -1,0 +1,25 @@
+.partner-logo-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid #17a2b8;
+  border-style: double;
+  border-color: #17a2b8 #17a2b8;
+  margin-bottom: 4rem;
+}
+
+.view-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 5px solid #17a2b8;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.avatar-group-container {
+  display: flex;
+  justify-content: center;
+}

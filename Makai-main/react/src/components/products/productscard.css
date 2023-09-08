@@ -1,0 +1,17 @@
+.card-image-for-products-card {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  aspect-ratio: 1;
+}
+
+.product-card-bottom {
+  text-align: center;
+  display: flex;
+  position: relative;
+}
+
+.favorites-unheart {
+  color: red;
+}

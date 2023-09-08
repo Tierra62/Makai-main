@@ -1,0 +1,9 @@
+.btn-makai {
+  background-color: rgb(50, 159, 176);
+  color: white;
+}
+
+.btn-makai:hover {
+  background-color: rgb(52, 130, 142);
+  color: white;
+}

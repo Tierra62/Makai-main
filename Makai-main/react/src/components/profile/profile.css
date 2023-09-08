@@ -1,0 +1,129 @@
+.card-body-custom {
+  padding-bottom: 77px;
+}
+
+.profile-image-container img {
+  margin-top: -50%;
+}
+.profile-image-uploader {
+  position: absolute;
+  bottom: 0;
+  height: 10.5rem;
+  width: 10.5rem;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.profile-file-input {
+  height: 10.5rem;
+  width: 10.5rem;
+  opacity: 0;
+}
+
+.profile-image-uploader:hover {
+  opacity: 2;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.profile-nav-header {
+  font-size: large;
+  font-family: monospace;
+  padding-left: 0.25rem;
+}
+
+.profile-nav-item {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.shadow-hover:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(23, 162, 184, 50%);
+  border-radius: 0.5rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.active-selection {
+  background-color: rgba(23, 162, 184, 75%);
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 992px) {
+  .hidden-under-lg {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hidden-under-md {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .hidden-under-sm {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .fit-content-md {
+    width: fit-content;
+  }
+}
+
+.profile-card-subheader {
+  font-size: large;
+  font-weight: bold;
+}
+.profile-card-subtitle {
+  opacity: 70%;
+  font-size: small;
+}
+.h-5 {
+  height: 5rem;
+}
+.profile-navbar {
+  display: block;
+}
+
+.has-error {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: crimson;
+}
+
+.no-orders {
+  color: var(--falcon-badge-soft-secondary);
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.password-icon {
+  margin-top: 2rem;
+  margin-left: -1.5rem;
+}
+
+.profile-small-avatar-remove {
+  text-shadow: none;
+  border-radius: 50%;
+  box-shadow: var(--falcon-box-shadow-sm);
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+}
+
+.profile-small-avatar {
+  margin-top: 0.75rem;
+  margin-left: -0.75rem;
+}
+
+.profile-small-avatar-generic {
+  margin-top: 0.75rem;
+  margin-left: 0.75rem;
+}

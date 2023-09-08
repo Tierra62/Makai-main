@@ -1,0 +1,62 @@
+.finder-form-error {
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+.stand-list-card {
+  background-color: #0b1727;
+}
+.col-label {
+  color: #f9fafd;
+}
+.stand-from-word {
+  margin-right: -125px;
+}
+.stand-button-directions {
+  color: #62cdff;
+  font-size: 15px;
+}
+.stand-button-turn {
+  color: #f7c04a;
+  font-size: 15px;
+  margin-left: -140px;
+  padding-right: 15px;
+  padding-left: 25px;
+}
+.stand-card-size {
+  width: 18rem;
+}
+.stand-image-card {
+  width: 100px;
+}
+.stand-warn-directions {
+  color: #62cdff;
+  font-style: italic;
+  font-size: 15px;
+}
+.stands-tooltips-boxes {
+  background-color: white;
+}
+.gm-style-iw-t .gm-style-iw-c {
+  background-color: white;
+}
+.stand-toolbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.gm-fullscreen-control,
+.gm-svpc,
+.gmnoprint * {
+  background-color: white !important;
+  color: inherit !important;
+}
+
+.stand-list-group {
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.stand-miles:hover {
+  cursor: pointer;
+}

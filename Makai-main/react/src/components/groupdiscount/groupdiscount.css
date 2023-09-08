@@ -1,0 +1,13 @@
+.group-discount-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.discount-color-button {
+  background: linear-gradient(
+    160deg,
+    rgb(65, 109, 115) 0%,
+    rgba(18, 144, 177, 1) 44%,
+    rgba(23, 93, 112, 1) 100%
+  );
+}

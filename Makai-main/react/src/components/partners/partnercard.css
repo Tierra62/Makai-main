@@ -1,0 +1,28 @@
+.partner-card {
+  border: 4px solid #17a2b8;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.partner-card:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.makai-logo {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.card-icon {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+}
+
+.file-icon {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}

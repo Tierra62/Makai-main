@@ -1,0 +1,152 @@
+.listing-card {
+  display: flex;
+  transition: transform 450ms;
+}
+.listing-card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.listing-img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+.listing-border {
+  border-style: solid;
+  border-color: #2e1a47;
+}
+.listing-header-col {
+  margin-left: 140px;
+}
+.listing-wizard-error {
+  color: red;
+  margin-top: 5px;
+}
+.listing-loki-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 10rem;
+}
+.listing-loki-actions button {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  width: 4.5rem;
+  height: 3rem;
+}
+.listing-loki-actions .back-btn {
+  width: 10rem;
+  margin-right: 1rem;
+}
+.LokiSteps {
+  width: 100%;
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: separate;
+  margin-left: 0px;
+  padding-left: 0;
+  padding-top: 20px;
+}
+.LokiSteps .LokiStep {
+  display: table-cell;
+  position: relative;
+  float: none;
+  padding: 0;
+  width: 1%;
+}
+.LokiSteps .LokiStep .LokiStep-Icon {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  color: #ccc;
+  font-size: 26px;
+  height: 2em;
+  margin: 0 auto;
+  position: relative;
+  width: 2em;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LokiSteps .LokiStep .LokiStep-Link.disabled {
+  cursor: not-allowed;
+}
+.LokiSteps .LokiStep.LokiStep-Active .LokiStep-Icon {
+  border-color: #2694c3;
+  color: #2694c3;
+}
+.LokiSteps .LokiStep.LokiStep-Complete .LokiStep-Icon {
+  border-color: #0e3e70;
+  color: #0e3e70;
+}
+.LokiSteps .LokiStep:after {
+  left: 50%;
+  background-color: #ccc;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  width: 100%;
+  top: 27px;
+}
+.LokiSteps .LokiStep:last-child:after {
+  display: none;
+}
+.listing-Loki-actions button:focus,
+.listing-Loki-actions button:active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.listing-Loki-actions button:hover,
+.listing-Loki-actions button:focus {
+  color: #333333;
+  text-decoration: none;
+}
+.listing-Loki-actions button:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.listing-preview {
+  color: #2e1a47;
+}
+.listing-image-preview {
+  margin-right: 120px;
+}
+.listing-search-btn {
+  margin-left: 5px;
+}
+.listing-search-box {
+  margin-left: 155px;
+}
+.filter-card {
+  margin-left: 3rem;
+  margin-top: 100px;
+}
+.listings-row {
+  padding-right: 15px;
+  padding-bottom: 15px;
+}

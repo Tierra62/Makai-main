@@ -1,0 +1,16 @@
+.newsletter-card {
+  height: 95%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.newsletter-image {
+  height: 50%;
+}
+
+.unsubcribe-container {
+  background-color: aliceblue;
+  padding-top: 50px;
+  height: 250px;
+  width: 550px;
+}

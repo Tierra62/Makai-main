@@ -1,0 +1,58 @@
+.admin-dashboard-container {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-dashboard-header {
+  border: 8px solid #0b1727;
+}
+
+.admin-dashboard-card {
+  width: 100%;
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 3%;
+}
+
+.admin-dashboard-widget {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-dashboard-title {
+  color: #40afbb;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.admin-dashboard-imageheader {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-dashboard-profilepic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: scale-down;
+  background-color: #0b1727;
+  border: 7px solid #40afbb;
+  position: absolute;
+  top: -90px;
+  left: 25px;
+  font-size: 18px;
+}
+
+.admin-dashboard-textwrapper {
+  position: absolute;
+  top: -100px;
+  left: 226px;
+  font-size: 18px;
+}

@@ -1,0 +1,98 @@
+.donate-container {
+  width: 102.2%;
+  height: 560px;
+  margin-left: -15.5px;
+  margin-top: -20%;
+}
+
+.donate-img-over {
+  position: absolute;
+  bottom: 100px;
+  left: 41px;
+  font-size: 18px;
+  width: 550px;
+}
+
+.donate-now-button {
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.donate-color-card {
+  background: linear-gradient(
+    185deg,
+    rgba(118, 183, 191, 1) 0%,
+    rgba(18, 144, 177, 1) 44%,
+    rgba(23, 93, 112, 1) 100%
+  );
+  color: rgb(255, 255, 255);
+}
+
+.donate-amount-label {
+  border: none;
+  border-bottom: 2px solid rgb(26, 24, 24);
+  outline: none;
+  margin-bottom: 13px;
+  font-size: 20px;
+}
+
+.donate-icon-img {
+  width: 70px;
+  height: 90px;
+  margin-left: 33%;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.donate-image-form {
+  height: 730px;
+  width: 530px;
+}
+
+.donate-carousel {
+  padding-left: 6%;
+  padding-right: 3%;
+}
+
+.donate-carousel-img {
+  height: 530px;
+  width: 360px;
+}
+.donate-subtitle-section {
+  color: rgb(64, 175, 187);
+  font-weight: 600;
+}
+
+.donate-title-section {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.donate-single-charity-card {
+  background-image: url("../../assets/img/donations/donate-card.png");
+  height: 650px;
+  padding: 25% 15% 15% 15%;
+  background-size: cover;
+  color: black;
+}
+
+.donate-card-title {
+  font-size: 33px;
+  color: black;
+}
+
+.donate-total-amount {
+  color: rgb(64, 175, 187);
+  font-size: 35px;
+  margin-left: -40px;
+}
+
+/* breakpoints */
+@media only screen and (min-width: 1500px) {
+  .donate-groupcards {
+    margin-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}

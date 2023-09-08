@@ -1,0 +1,80 @@
+.advertisementCard-rounded-circle {
+  height: 161px;
+  width: 170px;
+  border-radius: 30%;
+}
+
+.advertisement-iconlist {
+  color: #434444;
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  z-index: 1;
+  margin-right: 10px;
+}
+
+.advertisement-icongrid {
+  color: #434444;
+  position: absolute;
+  bottom: 30px;
+  right: 13px;
+  z-index: 1;
+  margin-right: 30px;
+}
+
+.advertisement-pagination {
+  position: absolute;
+  bottom: -20px;
+  list-style: none;
+  left: 30%;
+  display: flex;
+  justify-content: center;
+
+  bottom: -20px;
+}
+
+.advertisement-card {
+  box-shadow: 10px 10px;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 25rem;
+  width: 21rem;
+  background: linear-gradient(#4287f5 41%, #fcfdff 5%);
+}
+
+.card-text {
+  position: absolute;
+  list-style: none;
+  bottom: 180px;
+}
+
+.card-text2 {
+  position: absolute;
+  list-style: none;
+  bottom: 80px;
+  width: 300px;
+}
+
+.card-title {
+  position: absolute;
+  list-style: none;
+  bottom: 220px;
+}
+
+.card-footer {
+  position: absolute;
+  list-style: none;
+  bottom: -10px;
+}
+
+.newAdvertisement-me-auto {
+  position: absolute;
+  list-style: none;
+  left: 830px;
+}
+
+.advertisement-form-card {
+  position: absolute;
+  bottom: 50px;
+  left: 630px;
+}

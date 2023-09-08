@@ -1,0 +1,12 @@
+#traycard {
+  background: #4699ddaf;
+}
+.tray-button {
+  background-color: var(--turquoise);
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 12px;
+}

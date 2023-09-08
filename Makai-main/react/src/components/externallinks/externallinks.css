@@ -1,0 +1,20 @@
+button.btn-exlinks {
+  float: inline-end;
+  width: auto;
+  height: auto;
+}
+.links-display {
+  min-width: 50%;
+  max-width: 70%;
+}
+.links-form {
+  width: 25%;
+  position: fixed;
+  left: 65%;
+  margin-left: 100px;
+}
+.links-logo {
+  height: 50px;
+  width: 50px;
+  float: left;
+}

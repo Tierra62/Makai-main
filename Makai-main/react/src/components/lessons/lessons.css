@@ -1,0 +1,12 @@
+.lesson-card {
+  height: 100%;
+}
+
+.lesson-card .card-body {
+  overflow-y: scroll;
+}
+
+.lesson-image {
+  height: 50%;
+  min-height: 50%;
+}

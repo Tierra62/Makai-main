@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "makai-378802",
+  "private_key_id": "f9efdebb141197c27fcc4ce88ad355b57d93e69b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCtFLs6j7+7LZPF\n1MU32HDPR3M41PY5U8lO1Tp4dWZhWhd3XfzHkkiXySMrBDNZcxpW0zFc7wwS9mxI\nfuq7gPU+R8A4ZOa2XniBKu5iPyvP4G5tZDQnIOuC6HCrloJm/jEsntc3MHtP7Yz3\nFRdAFH8NC6nBkTNBJGgRjsHbdCs5WniOqEqlXCBGPR09OVek8NJDZXIlJCIZL8wW\nP5jBl7AscNT+POnKiUj+E1JPZ6g8/WUnV+7I1N7b+JJxDI81RLtW5bEV7h9nDBy1\n/Q0gvdew77hMjPumn2P6cr+dJTWObJpmmrxkA2dGqCqLcQstG41pzMMMLj35wCEf\nffDFuWqNAgMBAAECgf5ioI74r3AZ5zq1y4nTeNM2LhZzHDM0aqkqsXUAFjqo93V4\n2n+fWjzOvr+bL7BmBqBzLgrhH+EVL88e4tpG+pYKbXY0tKnJM3aXXGMSDIIKdOjj\nbrAgs36yU8bEC7/23RNHUpz3gLEaKZDIAb0dfoN9ItpAeoVc/LDN7IgptzC+ak3F\ntPhg85LOpXCyj0nrxdu+wP9Q4FKmOyu83qapqFfN1nHlo1jDuV1YTiL6ccAIWRQt\nYAQKwjkpz9+twuVq6v+Dq6TLb0hK4CXN9JFjyw8c2oTbYn3CNGUOA9W9x+kJaXIC\nXKQf41dHyYd7kLTjv4SuSnMEiEnMHxQZwvL35wKBgQDc8rluNxupMij26S/PP7zd\nOZaj0rik1XRbODyDTFeXTyakHV2ANy0xyKdOvo/JbjsjCt8kNvFdVvrGZPx5GKut\nDgA2nEByL8cZWpaHAxPEi3MgRt7Mc5x8hhMwFdGouMmg4TVg4WZHrcAxJRrc21tH\nBEvSQ35Uh79ATwozIYANQwKBgQDIif9w54O8VmxFyUvf3RyLf+5fQgdmJEOiRR3H\nDvWhWjLKTVy3nCpy7Q3hxSwB0I8PVwdzItBPfqroURq4jiksShL3kHcwv2Hg6mgF\nTdU1iM3re5ZqHhz8aKg0nRer1Yt0XT50rFv3eW7upcZ5BQf10nC6nDZd2OImIR4C\nk/HD7wKBgQCoW8P0OcW4DWKtkk496+Fr6P/iYSUVZRk+kQF7QubTgxp8n2up0WF8\nt9rU49wIrxgcwaH6pGsSpr58AmNnmubl/O8orbNlzwY1SZO92RhtAZ1+EMKgo8+w\nCzH/yAB0QipRjonwApC/OaRjTlTDydopqRplY8yVeMLAq/mnsHU0pQKBgESMd1ae\nrLc6S3RnZJo3OMSujErfhSvzBXN4cL9Ua74l2OqyGxlgNlpmkbI09eAA7IXv18oR\ngmdKAx26a4neflB3WZhqN3PgV5LMTZZSjqjoBIuUCUxo0rutAqJJeIfyTOMP5IN5\nT05+od7Np9RCVgA/WO1Q7HyT4GnsNBfpfmDdAoGANP5H9hQ3GRECQuiu75nrDGhC\nltejKmYdlKui5ndW5Cqs9FrHADrZH4EkQ5oV8N67t1p5kijRpq0R1zTLiAH9LEKu\nM25awRmuQMTTkdlr4P6k4v8uKdxGqFPXULPwiX1BJltlA2YNTjhBCuXMNc/+NKwJ\nw7QC7F/pYZFIzeZiagg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "makai-808@makai-378802.iam.gserviceaccount.com",
+  "client_id": "104564370257467899962",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/makai-808%40makai-378802.iam.gserviceaccount.com",
+  "view_id": "285357249",
+  "property_id": "355317158"
+}

@@ -1,0 +1,9 @@
+.navbar__height {
+  height: 75px;
+}
+
+.makai__logo {
+  z-index: 5;
+  height: 125px;
+  width: 150px;
+}

@@ -1,0 +1,10 @@
+.reels-carousel-image {
+  max-height: 600px;
+  object-fit: contain;
+}
+
+.image-height {
+  height: 200px;
+  width: 250px;
+  object-fit: fill;
+}
